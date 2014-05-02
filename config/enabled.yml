@@ -135,10 +135,6 @@ DefWithParentheses:
   Description: 'Use def with parentheses when there are arguments.'
   Enabled: true
 
-Delegate:
-  Description: 'Prefer delegate method for delegations.'
-  Enabled: true
-
 DeprecatedHashMethods:
   Description: 'Checks for use of deprecated Hash methods.'
   Enabled: true
@@ -744,6 +740,10 @@ ActionFilter:
 
 DefaultScope:
   Description: 'Checks if the argument passed to default_scope is a block.'
+  Enabled: true
+
+Delegate:
+  Description: 'Prefer delegate method for delegations.'
   Enabled: true
 
 HasAndBelongsToMany:
